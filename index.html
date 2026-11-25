@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Simon Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Simon Game</h1>
+    <p>Watch the colors, then repeat the pattern.</p>
+
+    <div id="message">Press Start to play</div>
+
+    <div class="board off" id="board">
+      <button class="pad" id="green" aria-label="green"></button>
+      <button class="pad" id="red" aria-label="red"></button>
+      <button class="pad" id="yellow" aria-label="yellow"></button>
+      <button class="pad" id="blue" aria-label="blue"></button>
+    </div>
+
+    <button id="start">Start</button>
+
+    <p class="score">Level: <span id="level">0</span> &nbsp; Best: <span id="best">0</span></p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
